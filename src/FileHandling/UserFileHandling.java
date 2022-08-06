@@ -73,9 +73,7 @@ public class UserFileHandling {
 			if (Files.isRegularFile(path)) {
 				System.out.println("File Exists");
 			}
-			if (Files.isDirectory(path)) {
-				System.out.println("File Exists but it is a Directory");
-			}
+			
 		} else {
 			System.out.println("File doesnot Exists");
 		}
